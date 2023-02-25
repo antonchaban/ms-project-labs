@@ -13,7 +13,7 @@ import java.util.Date;
 @AllArgsConstructor
 @EqualsAndHashCode
 @ToString
-public class Links {
+public class Link {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
