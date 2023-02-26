@@ -13,7 +13,7 @@ public interface LinksService {
 
     public Long deleteLink(Long linkId);
 
-    public Link updateLink(Link link, String newShortLink, String newLongLink) throws NameAlreadyBoundException;
+    public Link updateLink(Link link, String newShortLink) throws NameAlreadyBoundException;
 
-    public Link updateLinkById(Long linkId, String newShortLink, String newLongLink) throws NameAlreadyBoundException;
+    public Link updateLinkById(Long linkId, String newShortLink) throws NameAlreadyBoundException;
 }

@@ -3,6 +3,7 @@ package ua.kpi.fict.chaban.msprojectlabs.entities;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.time.Instant;
 import java.util.Date;
 
 @Entity
@@ -30,8 +31,8 @@ public class Link {
     private Long userId;
 
     @Column(name = "expires_stamp")
-    private Date expiresStamp;
+    private Instant expiresStamp;
 
     @Column(name = "created_stamp")
-    private Date createdStamp;
+    private Instant createdStamp;
 }
