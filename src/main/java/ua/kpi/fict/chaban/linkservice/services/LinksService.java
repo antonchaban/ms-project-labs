@@ -1,7 +1,7 @@
-package ua.kpi.fict.chaban.msprojectlabs.services;
+package ua.kpi.fict.chaban.linkservice.services;
 
 import org.springframework.stereotype.Service;
-import ua.kpi.fict.chaban.msprojectlabs.entities.Link;
+import ua.kpi.fict.chaban.linkservice.entities.Link;
 
 import javax.naming.NameAlreadyBoundException;
 

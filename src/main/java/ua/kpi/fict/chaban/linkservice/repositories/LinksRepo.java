@@ -1,8 +1,8 @@
-package ua.kpi.fict.chaban.msprojectlabs.repositories;
+package ua.kpi.fict.chaban.linkservice.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import ua.kpi.fict.chaban.msprojectlabs.entities.Link;
+import ua.kpi.fict.chaban.linkservice.entities.Link;
 
 import java.util.List;
 

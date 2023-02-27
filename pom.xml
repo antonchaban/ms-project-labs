@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ua.kpi.fict.chaban</groupId>
-    <artifactId>ms-project-labs</artifactId>
+    <artifactId>link-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ms-project-labs</name>
-    <description>ms-project-labs</description>
+    <name>link-service</name>
+    <description>link-service</description>
     <properties>
         <java.version>17</java.version>
     </properties>

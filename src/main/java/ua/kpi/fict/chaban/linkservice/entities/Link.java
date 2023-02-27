@@ -1,4 +1,4 @@
-package ua.kpi.fict.chaban.msprojectlabs.entities;
+package ua.kpi.fict.chaban.linkservice.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

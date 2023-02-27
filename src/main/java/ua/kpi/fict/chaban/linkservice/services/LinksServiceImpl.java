@@ -1,13 +1,12 @@
-package ua.kpi.fict.chaban.msprojectlabs.services;
+package ua.kpi.fict.chaban.linkservice.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ua.kpi.fict.chaban.msprojectlabs.entities.Link;
-import ua.kpi.fict.chaban.msprojectlabs.repositories.LinksRepo;
+import ua.kpi.fict.chaban.linkservice.entities.Link;
+import ua.kpi.fict.chaban.linkservice.repositories.LinksRepo;
 
 import javax.naming.NameAlreadyBoundException;
 import java.time.Instant;
-import java.util.Date;
 
 @Service
 public class LinksServiceImpl implements LinksService {

@@ -1,13 +1,13 @@
-package ua.kpi.fict.chaban.msprojectlabs;
+package ua.kpi.fict.chaban.linkservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MsProjectLabsApplication {
+public class LinkServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MsProjectLabsApplication.class, args);
+        SpringApplication.run(LinkServiceApplication.class, args);
     }
 
 }

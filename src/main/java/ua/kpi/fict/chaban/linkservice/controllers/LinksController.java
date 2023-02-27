@@ -1,11 +1,11 @@
-package ua.kpi.fict.chaban.msprojectlabs.controllers;
+package ua.kpi.fict.chaban.linkservice.controllers;
 
 import net.minidev.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ua.kpi.fict.chaban.msprojectlabs.entities.Link;
-import ua.kpi.fict.chaban.msprojectlabs.services.LinksServiceImpl;
+import ua.kpi.fict.chaban.linkservice.entities.Link;
+import ua.kpi.fict.chaban.linkservice.services.LinksServiceImpl;
 
 import javax.naming.NameAlreadyBoundException;
 
