@@ -14,7 +14,7 @@ import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 
 @RestController
-@RequestMapping("/api/")
+@RequestMapping("/api/link")
 public class LinksController {
     @Autowired
     private LinksServiceImpl linksService;
